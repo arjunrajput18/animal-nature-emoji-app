@@ -46,7 +46,9 @@ export default function App() {
         <h1>Animal & Nature Emoji Meaning </h1>
         <input onClick={eventHandler} />
         <h2>{emojiMeaning}</h2>
-        <h2>Animal & nature Emoji we Know </h2>
+        <br />
+        <h2>list of Emoji we Know </h2>
+        <br />
         {meaningsOfEmoji.map((val, index) => (
           <span
             onClick={() => emojiClickHandler(val)}
