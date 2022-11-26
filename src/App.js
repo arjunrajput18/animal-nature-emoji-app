@@ -44,7 +44,7 @@ export default function App() {
     <>
       <div className="App">
         <h1>Animal & Nature Emoji Meaning </h1>
-        <input onClick={eventHandler} />
+        <input onChange={eventHandler} />
         <h2>{emojiMeaning}</h2>
         <br />
         <h2>list of Emoji we Know </h2>
